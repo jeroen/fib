@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(V8, new_context)
+importFrom(Rcpp,sourceCpp)
+useDynLib(fib)

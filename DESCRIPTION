@@ -1,0 +1,11 @@
+Package: fib
+Type: Package
+Title: Fibonacci in R, C++ and JavaScript
+Version: 0.1
+Date: 2015-03-05
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+Imports: V8, Rcpp
+LinkingTo: Rcpp
