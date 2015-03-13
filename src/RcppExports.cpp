@@ -16,3 +16,14 @@ BEGIN_RCPP
     return __result;
 END_RCPP
 }
+// countsum
+double countsum(const int x);
+RcppExport SEXP fib_countsum(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject __result;
+    Rcpp::RNGScope __rngScope;
+    Rcpp::traits::input_parameter< const int >::type x(xSEXP);
+    __result = Rcpp::wrap(countsum(x));
+    return __result;
+END_RCPP
+}

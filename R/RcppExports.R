@@ -5,3 +5,7 @@ fibonacci <- function(x) {
     .Call('fib_fibonacci', PACKAGE = 'fib', x)
 }
 
+countsum <- function(x) {
+    .Call('fib_countsum', PACKAGE = 'fib', x)
+}
+
